@@ -1,0 +1,9 @@
+---
+- name: "01: mostrar mensaje"
+  ansible.builtin.import_tasks: 01_imprimir_mensaje.yaml
+
+- name: "02: crear archivo"
+  ansible.builtin.import_tasks: 02_crear_archivo.yaml
+
+- name: "03: escribir contenido en el archivo"
+  ansible.builtin.import_tasks: 03_escribir_archivo.yaml

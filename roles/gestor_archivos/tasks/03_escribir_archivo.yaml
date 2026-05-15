@@ -1,0 +1,12 @@
+---
+- name: Contenido para dev
+  ansible.builtin.copy:
+    content: "Ansible funcionando mi nombre es {{ nombre }} y estoy en {{ ambiente }}"
+    dest: "./saludo.txt"
+  when: ambiente == "dev"
+
+- name: Contenido para prod
+  ansible.builtin.copy:
+    content: "Ansible funcionando mi nombre es {{ nombre }} y estoy en {{ ambiente }}"
+    dest: "./saludo.txt"
+  when: ambiente == "prod"
