@@ -1,0 +1,5 @@
+---
+- name: Crear arcjivo
+  ansible.builtin.file:
+    path: "./saludo.txt"
+    state: touch

@@ -1,0 +1,4 @@
+---
+- name: Imprimir mensaje de bienvenida
+  ansible.builtin.debug:
+    msg: "Hola desde Ansible! Host {{ inventory_hostname }}"

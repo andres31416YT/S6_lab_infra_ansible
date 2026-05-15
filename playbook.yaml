@@ -1,0 +1,5 @@
+---
+- name: Laboratorio de Infraestructura con Roles
+  hosts: local
+  roles:
+    - gestor_archivos
