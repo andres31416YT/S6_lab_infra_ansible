@@ -1,5 +1,6 @@
 # S6_lab_infra_ansible
 > Andres Pagan Roncall
+> version: 1.0
 ---
 
 ## Objetivo
